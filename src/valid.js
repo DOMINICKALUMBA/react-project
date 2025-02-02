@@ -3,10 +3,12 @@ const invalidPassword = () => <h1>invalid PasswordvalidPassword</h1>
 const Password = ({isvalid}) =>{
     return <validPassword/>;
 return<invalidPassword/>;
+//return isvalid ? <validPassword/> : <invalidPassword/>;
+
 
 };
 
-const App = () =>{
+const valid = () =>{
     return <Password isvalid = {true}/>
 
 };

@@ -1,5 +1,5 @@
 const Button = () =>{
-    return <button>click me</button>
+    return <button className="btn">click me</button>
 };
 
 

@@ -1,7 +1,10 @@
-button {
-
-background-color: rgb(255, 0, 0);
+.btn{
+padding: 10px 20px;
+background-color: rgb(0, 17, 255);
 color: aqua;
+border: none;
+border-radius: 5px;
+cursor: pointer;
 
-};
+}
 

@@ -2,7 +2,7 @@
 
 
 
-const weather = ({temperature }) => {
+const Weather = ({temperature }) => {
     if (temperature < 15) {
     console.log("its cold outside");
     
@@ -14,4 +14,4 @@ const weather = ({temperature }) => {
     console.log("its hot outside")
 
 };};
-    export default weather;
+    export default Weather;

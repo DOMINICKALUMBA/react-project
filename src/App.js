@@ -1,15 +1,15 @@
 import Button from "./Button";
 import "./styles.css";
 import valid from "./valid";
-import weather from "./weather";
+import Weather from "./Weather"
 
 
 const App = () => {
 return (
 <div>
-  <valid/>
   <Button/>
-  <weather/>
+  <valid/>
+  <Weather/>
 </div>
 );
 };

@@ -1,15 +1,15 @@
 const validPassword = () => <h1>valid Password</h1>
 const invalidPassword = () => <h1>invalid PasswordvalidPassword</h1>
 const Password = ({isvalid}) =>{
-    return <validPassword/>;
+   // return <validPassword/>;
 return<invalidPassword/>;
-//return isvalid ? <validPassword/> : <invalidPassword/>;
+return isvalid ? <validPassword/> : <invalidPassword/>;
 
 
 };
 
-const valid = () =>{
-    return <Password isvalid = {true}/>
+const Valid = () =>{
+  //  return <Password isvalid = {true}/>
 
 };
 
@@ -19,4 +19,4 @@ const valid = () =>{
 
 
 
-export default valid;
+export default Valid;

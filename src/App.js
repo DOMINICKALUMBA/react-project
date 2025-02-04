@@ -1,15 +1,16 @@
 import Button from "./Button";
-import "./styles.css";
-import valid from "./valid";
+import  styles from "./Styles.css";
+import Valid from "./Valid";
 import Weather from "./Weather"
-
+import Greetings from "./Greetings";
 
 const App = () => {
 return (
 <div>
   <Button/>
-  <valid/>
+  <Valid/>
   <Weather/>
+  <Greetings timeOfDay = "mornin"/>
 </div>
 );
 };

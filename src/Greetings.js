@@ -1,9 +1,9 @@
 import React from 'react'
-let name = "Dominic";
+let name = "sir";
 
 const Greetings = (props) => {
   return (
-    <div>Good morning {name}</div>
+    <div style={{color:"red",backgroundColor:'teal'}}>Good morning {name}</div>
   )
 }
 

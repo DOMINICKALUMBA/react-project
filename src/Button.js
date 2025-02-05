@@ -1,6 +1,7 @@
 const Button = () =>{
-    return <button className="btn">click me</button>
+    return 
+    <button onClick={()=>console.log("you clicked me")}>click me</button>
 };
 
 
-export default Button;
+export default Button;  

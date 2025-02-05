@@ -1,8 +1,11 @@
+import "./Styles.css";
+
+
 import Button from "./Button";
-import  styles from "./Styles.css";
 import Valid from "./Valid";
 import Weather from "./Weather"
 import Greetings from "./Greetings";
+import Copy from "./Copy";
 
 const App = () => {
 return (
@@ -10,7 +13,8 @@ return (
   <Button/>
   <Valid/>
   <Weather/>
-  <Greetings timeOfDay = "mornin"/>
+  <Greetings timeOfDay = "morning"/>
+  <Copy/>
 </div>
 );
 };

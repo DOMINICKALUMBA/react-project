@@ -7,6 +7,7 @@ import Weather from "./Weather"
 import Greetings from "./Greetings";
 import Copy from "./Copy";
 import Counter from "./Counter";
+import TodoList from "./TodoList";
 
 const App = () => {
 return (
@@ -17,6 +18,7 @@ return (
   <Greetings timeOfDay = "morning"/>
   <Copy/>
   <Counter/>
+  <TodoList/>
 
 </div>
 );

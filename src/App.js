@@ -6,6 +6,7 @@ import Valid from "./Valid";
 import Weather from "./Weather"
 import Greetings from "./Greetings";
 import Copy from "./Copy";
+import Counter from "./Counter";
 
 const App = () => {
 return (
@@ -15,6 +16,8 @@ return (
   <Weather/>
   <Greetings timeOfDay = "morning"/>
   <Copy/>
+  <Counter/>
+
 </div>
 );
 };
